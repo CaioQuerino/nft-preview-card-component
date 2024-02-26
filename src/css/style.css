@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit', sans-serif;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+  .attribution { font-size: 11px; text-align: center; background-color: #2B210D;}
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  body{
+    background-color: hsl(216, 55%, 11%);
+    height: 100vh;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container .card{
+    background-color: hsl(215, 51%, 16%);
+    max-width: 21.875rem;
+    padding:1.5rem;
+    border-radius: 12px;
+  }
+
+  .container .card img{
+    max-width: 302px;
+    border-radius: 12px;
+    margin-bottom: 23px;
+  }
+
+  .container .card h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 150%;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 14px;
+    
+  }
+
+  .container .card p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: hsl(215, 52%, 70%);
+    margin-bottom: 21px;
+
+  }
+
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-bottom: 23px;    
+}
+
+.container-grid .s1{
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(178, 100%, 50%);
+}
+
+.container-grid .s2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8BACDA;
+}
+
+.parte1, .parte2{
+    display: flex;
+    gap: 7px;
+}
+
+.parte2{
+    justify-content: right;
+}
+
+hr{
+    margin-bottom: 15px;
+}
+
+.container-1 {
+    align-items: center;
+    gap: 17px;
+    display: flex;
+  }
+  
+  .image {
+    margin-top: 50%;
+    width: 34px;
+    height: 34px;
+  }
+  
+  .text-container {
+    gap: 5px;
+    display: flex;
+  }
+  
+  .text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white; 
+  }
+  
+  
